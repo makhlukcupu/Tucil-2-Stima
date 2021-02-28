@@ -4,8 +4,8 @@
 #KurangiPrasyaratDanHapusEdge.py
 
 def KurangiPrasyaratDanHapusEdge(banyakPrasyarat, akuPrasyaratDari, Matkul):
-    for i in akuPrasyaratDari[Matkul]:
-        banyakPrasyarat[i] -= 1
+    for i in akuPrasyaratDari[Matkul]: #untuk segala mata kuliah dengan prasyarat Matkul,
+        banyakPrasyarat[i] -= 1 #kurangi banyak prasyaratnya dengan 1 (memutus edge dari Matkul ke mata kuliah itu)
             
 
 #Driver KurangiPrasyaratDanHapusEdge
