@@ -13,7 +13,7 @@
 
 ## iii. Cara menggunakan program
 	1. Copy isi file dari folder test ke file test.txt di folder src
-	2. run file main.py dalam folder src
+	2. run file 13519170.py dalam folder src
 
 	Untuk masing masing fungsi, run saja drivernya (hanya satu case aja wkwkwk)
 

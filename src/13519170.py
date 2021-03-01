@@ -1,7 +1,8 @@
 ##La Ode Rajuh Emoko
 #13519170
 #K4
-#main.py
+#main program
+#13519170.py
 
 import bacafile13519170 as BF
 import KurangiPrasyaratDanHapusEdge13519170 as KP
