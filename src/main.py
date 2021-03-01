@@ -28,7 +28,12 @@ for i in range(8):
             del banyakPrasyarat[key]    #hapus matkul yang sudah diambil (sudah dimasukkan di semester ke i+1)
 
 for i in range (len(matkulDiAmbil)):
-    print("Semester ", i+1, ": ", matkulDiAmbil[i][0], end='')
-    for j in range(1, len(matkulDiAmbil[i])-1):
-        print(", ", matkulDiAmbil[i][j], end='')
-    print(", ", matkulDiAmbil[i][len(matkulDiAmbil[i]) - 1])
+    if (matkulDiAmbil[i] == []):
+        break
+    elif (len(matkulDiAmbil[i]) == 1):
+        print("Semester ", i+1, ": ", matkulDiAmbil[i][0])
+    else:
+        print("Semester ", i+1, ": ", matkulDiAmbil[i][0], end='')
+        for j in range(1, len(matkulDiAmbil[i])-1):
+            print(", ", matkulDiAmbil[i][j], end='')
+        print(", ", matkulDiAmbil[i][len(matkulDiAmbil[i]) - 1])
