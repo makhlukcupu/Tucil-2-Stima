@@ -12,11 +12,10 @@
 	-
 
 ## iii. Cara menggunakan program
-	1. Copy file testing ke folder src
-	2. Ganti nama file testing tersebut dengan test.txt
-	3. Klik 2 kali pada file main.py dalam folder src
+	1. Copy isi file dari folder test ke file test.txt di folder src
+	2. run file main.py dalam folder src
 
-	Untuk masing masing fungsi, klik 2 kali file drivernya (hanya satu case aja wkwkwk)
+	Untuk masing masing fungsi, run saja drivernya (hanya satu case aja wkwkwk)
 
 ## iv. Author / identitas pembuat
 	Nim: 13519170
